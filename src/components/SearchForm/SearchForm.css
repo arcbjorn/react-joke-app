@@ -1,0 +1,32 @@
+.search-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.search-form input {
+  width: 60vh;
+  align-self: center;
+  font-size: 16px;
+  line-height: 34px;
+  padding: 1rem;
+  vertical-align: top;
+  border: none;
+  outline: none;
+  border-radius: 1em;
+  margin: 1rem;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+}
+
+.search-form input:focus {
+  box-shadow: 0 3px 8px 0 rgba(0,0,0,0.2), 0 0 0 1px rgba(0,0,0,0.08);
+}
+
+button {
+  border-radius: 0.5em;
+  background-color: lightgray;
+  cursor: default;
+  font-weight: bold;
+  font-size: 13px;
+  margin: 1em;
+  padding: 1em;
+}

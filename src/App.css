@@ -1,0 +1,46 @@
+.App {
+  text-align: center;
+  padding: 3rem 2rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+}
+
+.logo {
+  display: inline-block;
+  width: 50%;
+  margin-bottom: 2rem;
+}
+
+/* @media (prefers-reduced-motion: no-preference) {
+  .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+} */
+
+.jokes-list {
+  margin-top: 2rem;
+  text-align: left;
+  list-style: none;
+  max-width: 800px;
+}
+
+.jokes-list > li{
+  padding: 1rem;
+  margin: 0;
+}
+
+.link {
+  color: #61dafb;
+}
+
+/* @keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
